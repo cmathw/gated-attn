@@ -42,7 +42,7 @@ gated-attention/
 * Files for creating the Gated Attention model can be found in the `gated_attention/modelling/` directory.
 * Files for training the Gated Attention model can be found in the `gated_attention/train/` directory.
 * Files for running experiments can be found in the `gated_attention/experiments/` directory.
-* Models mentioned in the [Gated Attention](...) post can be found in the `gated_attention/experiments/saved_models` directory as safetensor files.
+* Models mentioned in the [Gated Attention](https://www.lesswrong.com/posts/kzc3qNMsP2xJcxhGn/gated-attention-blocks-preliminary-progress-toward-removing-1) post can be found in the `gated_attention/experiments/saved_models` directory as safetensor files.
 
 Typical workflow involves:
 
