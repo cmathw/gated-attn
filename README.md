@@ -1,6 +1,6 @@
 # Gated Attention
 
-This is a research code drop for reproducing the main results from the [Gated Attention](...) post, creating models that have OV-Incoherent attention head superposition and applying the gated attention mechanism to remove it.
+This is a research code drop for reproducing the main results from the [Gated Attention](https://www.lesswrong.com/posts/kzc3qNMsP2xJcxhGn/gated-attention-blocks-preliminary-progress-toward-removing-1) post, creating models that have OV-Incoherent attention head superposition and applying the gated attention mechanism to remove it.
 
 ![Attention Head Superposition](/assets/3_repr.png)
 
