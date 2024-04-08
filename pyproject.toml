@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "gated-attention"
+version = "0.1.0"
+description = ""
+authors = ["cmathw <cwmathwin@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.2.1"
+fancy-einsum = "^0.0.3"
+jaxtyping = "^0.2.25"
+plotly = "^5.19.0"
+ipykernel = "^6.29.3"
+pygraphviz = "^1.12"
+tqdm = "^4.66.2"
+safetensors = "^0.4.2"
+vulture = "^2.11"
+pyyaml = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.1.0"
+isort = "^5.13.2"
+black = "^24.2.0"
+autoflake = "^2.3.0"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

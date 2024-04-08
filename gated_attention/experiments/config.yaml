@@ -1,0 +1,46 @@
+experiments:
+  "2 heads, 3 skip trigrams":
+    n_orig_heads: 2
+    b_tok_range: 3
+    epochs: 1000
+    n_batches: 100
+    n_samples_per_batch: 1000
+    expansion_factor: 2
+    alpha_reg_attn_gate: 0.5
+    lr: 0.0005
+    output_bias: False
+    t_manual_seed: 2
+    dataset_seed: 0
+    model_seed: 0
+    path: "saved_models/toy_model_2H_3ST.st"
+    
+ 
+  "3 heads, 4 skip trigrams":
+    n_orig_heads: 3
+    b_tok_range: 4
+    epochs: 1000
+    n_batches: 100
+    n_samples_per_batch: 1000
+    expansion_factor: 2
+    alpha_reg_attn_gate: 0.1
+    lr: 0.0005
+    output_bias: False
+    t_manual_seed: 2
+    dataset_seed: 0
+    model_seed: 0
+    path: "saved_models/toy_model_3H_4ST.st"
+
+  "4 heads, 5 skip trigrams":
+    n_orig_heads: 4
+    b_tok_range: 5
+    epochs: 1000
+    n_batches: 100
+    n_samples_per_batch: 1000
+    expansion_factor: 2
+    alpha_reg_attn_gate: 0.3
+    lr: 0.001
+    output_bias: False
+    t_manual_seed: 2
+    dataset_seed: 0
+    model_seed: 0
+    path: "saved_models/toy_model_4H_5ST.st"
